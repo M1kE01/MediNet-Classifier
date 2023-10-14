@@ -9,10 +9,10 @@ This project primarily employs the ResNet50 architecture and evaluates its effec
 ## Results
 
 ### Basic Model:
-- **Validation Accuracy:** 35.85% at epoch 1, peaking at 73.58% at epoch 2, then decreasing.
+- **Validation Accuracy:** peaks 64.15% at epoch 2, then decreasing.
 
 ### ResNet50 Pretrained Model:
-- **Validation Accuracy:** Starts at 47.17% in epoch 1 and achieves a maximum of 73.58% by epoch 3.
+- **Validation Accuracy:** Starts at 35.85% in epoch 1 and achieves a maximum of 73.58% by epoch 3.
 
 Despite various tweaks, both models yielded similar performances. The consistent F1 score across epochs and models indicates potential data-related challenges, such as quality or imbalance.
 
